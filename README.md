@@ -8,7 +8,7 @@
 
 > ¿Qué es este programa?
 
-Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. ![más info sobre licencia](LICENSE)
+Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. [más info sobre licencia](LICENSE)
 
 > Pero si hay un montón... ¿Para qué uno más?
 
@@ -75,7 +75,7 @@ Hearthstone®: Heroes of Warcraft
 
 > What is this program
 
-Basically, it allows you to do two things: create customized Hearthstone cards and create card collections from the game, in the languages you want. It is open source under MIT license ![more info on license](LICENSE.md)
+Basically, it allows you to do two things: create customized Hearthstone cards and create card collections from the game, in the languages you want. It is open source under MIT license [more info on license](LICENSE)
 
 > But there are lots of these... Why one more?
 
