@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errorWrongCardName" xml:space="preserve">
+    <value>Nom de la carte doit contenir un texte!</value>
+  </data>
+  <data name="errorWrongCardQuality" xml:space="preserve">
+    <value>Rarité de la carte erronées</value>
+  </data>
+  <data name="errorWrongCardSet" xml:space="preserve">
+    <value>Jeu de Cartes erronées</value>
+  </data>
+  <data name="errorWrongCardType" xml:space="preserve">
+    <value>Type de Carte erronées</value>
+  </data>
+  <data name="errorWrongHeroClass" xml:space="preserve">
+    <value>Classe de héros erronées</value>
+  </data>
+  <data name="errorWrongMinionRace" xml:space="preserve">
+    <value>Mauvais la race des serviteurs</value>
+  </data>
+  <data name="errorWrongPathCurve" xml:space="preserve">
+    <value>Mauvais type de PathCurve trouvé!</value>
+  </data>
+  <data name="strAttack" xml:space="preserve">
+    <value>Attaque</value>
+  </data>
+  <data name="strBasic" xml:space="preserve">
+    <value>Basique</value>
+  </data>
+  <data name="strBeast" xml:space="preserve">
+    <value>Bête</value>
+  </data>
+  <data name="strBRM" xml:space="preserve">
+    <value>Mont Rochenoire</value>
+  </data>
+  <data name="strCancelProcess" xml:space="preserve">
+    <value>Annuler le processus</value>
+  </data>
+  <data name="strChooseDestination" xml:space="preserve">
+    <value>Choisissez le dossier de destination</value>
+  </data>
+  <data name="strClass" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="strClassic" xml:space="preserve">
+    <value>Classique</value>
+  </data>
+  <data name="strCollectionSuccess" xml:space="preserve">
+    <value>Collection créée avec succès</value>
+  </data>
+  <data name="strCommon" xml:space="preserve">
+    <value>Classique</value>
+  </data>
+  <data name="strCost" xml:space="preserve">
+    <value>Coût</value>
+  </data>
+  <data name="strCreateCards" xml:space="preserve">
+    <value>Créer des cartes</value>
+  </data>
+  <data name="strCreateCollection" xml:space="preserve">
+    <value>Créer une collection</value>
+  </data>
+  <data name="strCreateCustom" xml:space="preserve">
+    <value>Créer carte</value>
+  </data>
+  <data name="strCustom" xml:space="preserve">
+    <value>Personnalisé:</value>
+  </data>
+  <data name="strDamage" xml:space="preserve">
+    <value>Dommage</value>
+  </data>
+  <data name="strDemon" xml:space="preserve">
+    <value>Démon</value>
+  </data>
+  <data name="strDragon" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="strDruid" xml:space="preserve">
+    <value>Druide</value>
+  </data>
+  <data name="strDurability" xml:space="preserve">
+    <value>Durabilité</value>
+  </data>
+  <data name="strEpic" xml:space="preserve">
+    <value>Épique</value>
+  </data>
+  <data name="strFree" xml:space="preserve">
+    <value>Libre</value>
+  </data>
+  <data name="strGvG" xml:space="preserve">
+    <value>Gobelins et Gnomes</value>
+  </data>
+  <data name="strHealth" xml:space="preserve">
+    <value>Vie</value>
+  </data>
+  <data name="strHunter" xml:space="preserve">
+    <value>Chasseur</value>
+  </data>
+  <data name="strImageFolder" xml:space="preserve">
+    <value>Sélectionner un dossier d'image</value>
+  </data>
+  <data name="strLegendary" xml:space="preserve">
+    <value>Légendaire</value>
+  </data>
+  <data name="strMage" xml:space="preserve">
+    <value>Mage</value>
+  </data>
+  <data name="strMech" xml:space="preserve">
+    <value>Méca</value>
+  </data>
+  <data name="strMinion" xml:space="preserve">
+    <value>Serviteur</value>
+  </data>
+  <data name="strMurloc" xml:space="preserve">
+    <value>Murloc</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Nom de la Carte</value>
+  </data>
+  <data name="strNax" xml:space="preserve">
+    <value>La malédiction de Naxxramas</value>
+  </data>
+  <data name="strNeutral" xml:space="preserve">
+    <value>Générique</value>
+  </data>
+  <data name="strNone" xml:space="preserve">
+    <value>(Aucun)</value>
+  </data>
+  <data name="strOpenJSONFile" xml:space="preserve">
+    <value>Ouvrir un fichier JSON</value>
+  </data>
+  <data name="strOutputSize" xml:space="preserve">
+    <value>Taille:</value>
+  </data>
+  <data name="strPaladin" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="strPirate" xml:space="preserve">
+    <value>Pirate</value>
+  </data>
+  <data name="strPriest" xml:space="preserve">
+    <value>Pretre</value>
+  </data>
+  <data name="strProcessingLocale" xml:space="preserve">
+    <value>Locale Création</value>
+  </data>
+  <data name="strQuality" xml:space="preserve">
+    <value>Rareté</value>
+  </data>
+  <data name="strRace" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="strRare" xml:space="preserve">
+    <value>Rare</value>
+  </data>
+  <data name="strRogue" xml:space="preserve">
+    <value>Voleur</value>
+  </data>
+  <data name="strSaveCard" xml:space="preserve">
+    <value>Sauvegarder carte</value>
+  </data>
+  <data name="strSelectImage" xml:space="preserve">
+    <value>Sélectionnez Image de carte</value>
+  </data>
+  <data name="strSet" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strShaman" xml:space="preserve">
+    <value>Chaman</value>
+  </data>
+  <data name="strSpell" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="strText" xml:space="preserve">
+    <value>Texte de la Carte (peut utiliser des tags HTML)</value>
+  </data>
+  <data name="strTGT" xml:space="preserve">
+    <value>Le Grand Tournoi</value>
+  </data>
+  <data name="strTotem" xml:space="preserve">
+    <value>Totem</value>
+  </data>
+  <data name="strType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="strUnknownError" xml:space="preserve">
+    <value>Une erreur a ocurred</value>
+  </data>
+  <data name="strUpdateCard" xml:space="preserve">
+    <value>Mise à jour de la carte</value>
+  </data>
+  <data name="strUserCancel" xml:space="preserve">
+    <value>L'utilisateur a annulé le processus</value>
+  </data>
+  <data name="strWarlock" xml:space="preserve">
+    <value>Demoniste</value>
+  </data>
+  <data name="strWarrior" xml:space="preserve">
+    <value>Guerrier</value>
+  </data>
+  <data name="strWeapon" xml:space="preserve">
+    <value>Arme</value>
+  </data>
+  <data name="strTranslation" xml:space="preserve">
+    <value>Hugo Castro / Google</value>
+  </data>
+  <data name="strJSONParseSuccess" xml:space="preserve">
+    <value>JSON fichier poursuivi avec succès</value>
+  </data>
+  <data name="strJSONProcess" xml:space="preserve">
+    <value>Traitement du fichier. S'il vous plaît patienter ...</value>
+  </data>
+  <data name="strDefaultPicture" xml:space="preserve">
+    <value>Utiliser une image par défaut?</value>
+  </data>
+  <data name="strNoImage" xml:space="preserve">
+    <value>Si le portrait de la carte introuvable:</value>
+  </data>
+  <data name="strNoImageOptions" xml:space="preserve">
+    <value>Ne pas générer la carte-Utilisez une image par défaut-Donner un espace vide</value>
+  </data>
+  <data name="strStatus" xml:space="preserve">
+    <value>Chargées {0} cartes avec {1} langues</value>
+  </data>
+</root>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errorWrongCardName" xml:space="preserve">
+    <value>卡名称必须包含的文字！</value>
+  </data>
+  <data name="errorWrongCardQuality" xml:space="preserve">
+    <value>错卡的质量</value>
+  </data>
+  <data name="errorWrongCardSet" xml:space="preserve">
+    <value>错误的卡套</value>
+  </data>
+  <data name="errorWrongCardType" xml:space="preserve">
+    <value>错卡类型</value>
+  </data>
+  <data name="errorWrongHeroClass" xml:space="preserve">
+    <value>错卡类型</value>
+  </data>
+  <data name="errorWrongMinionRace" xml:space="preserve">
+    <value>错误的走狗比赛</value>
+  </data>
+  <data name="errorWrongPathCurve" xml:space="preserve">
+    <value>错误PathCurve类型的发现！</value>
+  </data>
+  <data name="strAttack" xml:space="preserve">
+    <value>侵袭</value>
+  </data>
+  <data name="strBasic" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="strBeast" xml:space="preserve">
+    <value>野兽</value>
+  </data>
+  <data name="strBRM" xml:space="preserve">
+    <value>黑石山的火焰</value>
+  </data>
+  <data name="strCancelProcess" xml:space="preserve">
+    <value>取消过程</value>
+  </data>
+  <data name="strChooseDestination" xml:space="preserve">
+    <value>取消过程</value>
+  </data>
+  <data name="strClass" xml:space="preserve">
+    <value>英雄级</value>
+  </data>
+  <data name="strClassic" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="strCollectionSuccess" xml:space="preserve">
+    <value>收藏成功创建</value>
+  </data>
+  <data name="strCommon" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="strCost" xml:space="preserve">
+    <value>法力</value>
+  </data>
+  <data name="strCreateCards" xml:space="preserve">
+    <value>创建卡</value>
+  </data>
+  <data name="strCreateCollection" xml:space="preserve">
+    <value>创建集合</value>
+  </data>
+  <data name="strCreateCustom" xml:space="preserve">
+    <value>创建自定义卡</value>
+  </data>
+  <data name="strCustom" xml:space="preserve">
+    <value>自定义：</value>
+  </data>
+  <data name="strDamage" xml:space="preserve">
+    <value>破坏</value>
+  </data>
+  <data name="strDemon" xml:space="preserve">
+    <value>惡魔</value>
+  </data>
+  <data name="strDragon" xml:space="preserve">
+    <value>龙</value>
+  </data>
+  <data name="strDruid" xml:space="preserve">
+    <value>德鲁伊</value>
+  </data>
+  <data name="strDurability" xml:space="preserve">
+    <value>耐久力</value>
+  </data>
+  <data name="strEpic" xml:space="preserve">
+    <value>史诗</value>
+  </data>
+  <data name="strFree" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="strGvG" xml:space="preserve">
+    <value>地精VS侏儒</value>
+  </data>
+  <data name="strHealth" xml:space="preserve">
+    <value>健康</value>
+  </data>
+  <data name="strHunter" xml:space="preserve">
+    <value>猎人</value>
+  </data>
+  <data name="strImageFolder" xml:space="preserve">
+    <value>选择图像文件夹</value>
+  </data>
+  <data name="strLegendary" xml:space="preserve">
+    <value>传说</value>
+  </data>
+  <data name="strMage" xml:space="preserve">
+    <value>猎人</value>
+  </data>
+  <data name="strMech" xml:space="preserve">
+    <value>机械</value>
+  </data>
+  <data name="strMinion" xml:space="preserve">
+    <value>随从</value>
+  </data>
+  <data name="strMurloc" xml:space="preserve">
+    <value>鱼人</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>卡名称</value>
+  </data>
+  <data name="strNax" xml:space="preserve">
+    <value>纳克萨玛斯的诅咒</value>
+  </data>
+  <data name="strNeutral" xml:space="preserve">
+    <value>中立</value>
+  </data>
+  <data name="strNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="strOpenJSONFile" xml:space="preserve">
+    <value>打开JSON文件</value>
+  </data>
+  <data name="strOutputSize" xml:space="preserve">
+    <value>输出尺寸：</value>
+  </data>
+  <data name="strPaladin" xml:space="preserve">
+    <value>圣骑士</value>
+  </data>
+  <data name="strPirate" xml:space="preserve">
+    <value>海盗</value>
+  </data>
+  <data name="strPriest" xml:space="preserve">
+    <value>牧师</value>
+  </data>
+  <data name="strProcessingLocale" xml:space="preserve">
+    <value>创建语言环境</value>
+  </data>
+  <data name="strQuality" xml:space="preserve">
+    <value>职业</value>
+  </data>
+  <data name="strRace" xml:space="preserve">
+    <value>种族</value>
+  </data>
+  <data name="strRare" xml:space="preserve">
+    <value>稀有</value>
+  </data>
+  <data name="strRogue" xml:space="preserve">
+    <value>潜行者</value>
+  </data>
+  <data name="strSaveCard" xml:space="preserve">
+    <value>保存卡</value>
+  </data>
+  <data name="strSelectImage" xml:space="preserve">
+    <value>选择卡图片</value>
+  </data>
+  <data name="strSet" xml:space="preserve">
+    <value>卡套</value>
+  </data>
+  <data name="strShaman" xml:space="preserve">
+    <value>萨满</value>
+  </data>
+  <data name="strSpell" xml:space="preserve">
+    <value>法术</value>
+  </data>
+  <data name="strText" xml:space="preserve">
+    <value>卡中的文字（可以使用HTML标签）</value>
+  </data>
+  <data name="strTGT" xml:space="preserve">
+    <value>冠军的试炼</value>
+  </data>
+  <data name="strTotem" xml:space="preserve">
+    <value>图腾</value>
+  </data>
+  <data name="strType" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="strUnknownError" xml:space="preserve">
+    <value>发现错误</value>
+  </data>
+  <data name="strUpdateCard" xml:space="preserve">
+    <value>更新卡</value>
+  </data>
+  <data name="strUserCancel" xml:space="preserve">
+    <value>用户取消过程</value>
+  </data>
+  <data name="strWarlock" xml:space="preserve">
+    <value>萨满</value>
+  </data>
+  <data name="strWarrior" xml:space="preserve">
+    <value>萨满</value>
+  </data>
+  <data name="strWeapon" xml:space="preserve">
+    <value>武器</value>
+  </data>
+  <data name="strTranslation" xml:space="preserve">
+    <value>Hugo Castro / Google</value>
+  </data>
+  <data name="strJSONParseSuccess" xml:space="preserve">
+    <value>文件JSON成功地分析</value>
+  </data>
+  <data name="strJSONProcess" xml:space="preserve">
+    <value>处理的文件。请稍候...</value>
+  </data>
+  <data name="strDefaultPicture" xml:space="preserve">
+    <value>使用默认的图片？</value>
+  </data>
+  <data name="strNoImage" xml:space="preserve">
+    <value>如果卡人像未找到：</value>
+  </data>
+  <data name="strNoImageOptions" xml:space="preserve">
+    <value>不产生卡-使用默认图像-留下一个空的地方</value>
+  </data>
+  <data name="strStatus" xml:space="preserve">
+    <value>阅读{0}卡，{1}种语言</value>
+  </data>
+</root>

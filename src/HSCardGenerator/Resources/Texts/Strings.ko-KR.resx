@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errorWrongCardName" xml:space="preserve">
+    <value>카드 이름은 텍스트를 포함해야합니다!</value>
+  </data>
+  <data name="errorWrongCardQuality" xml:space="preserve">
+    <value>카드 이름은 텍스트를 포함해야합니다!</value>
+  </data>
+  <data name="errorWrongCardSet" xml:space="preserve">
+    <value>잘못된 카드 세트</value>
+  </data>
+  <data name="errorWrongCardType" xml:space="preserve">
+    <value>잘못된 카드 유형</value>
+  </data>
+  <data name="errorWrongHeroClass" xml:space="preserve">
+    <value>잘못된 영웅 클래스</value>
+  </data>
+  <data name="errorWrongMinionRace" xml:space="preserve">
+    <value>잘못된 미니언 경주</value>
+  </data>
+  <data name="errorWrongPathCurve" xml:space="preserve">
+    <value>잘못된 PathCurve 유형 발견!</value>
+  </data>
+  <data name="strAttack" xml:space="preserve">
+    <value>공격</value>
+  </data>
+  <data name="strBasic" xml:space="preserve">
+    <value>기본</value>
+  </data>
+  <data name="strBeast" xml:space="preserve">
+    <value>야수</value>
+  </data>
+  <data name="strBRM" xml:space="preserve">
+    <value>검은바위 산</value>
+  </data>
+  <data name="strCancelProcess" xml:space="preserve">
+    <value>프로세스 취소</value>
+  </data>
+  <data name="strChooseDestination" xml:space="preserve">
+    <value>대상 폴더를 선택</value>
+  </data>
+  <data name="strClass" xml:space="preserve">
+    <value>직업</value>
+  </data>
+  <data name="strClassic" xml:space="preserve">
+    <value>클래식</value>
+  </data>
+  <data name="strCollectionSuccess" xml:space="preserve">
+    <value>클래식</value>
+  </data>
+  <data name="strCommon" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="strCost" xml:space="preserve">
+    <value>마나</value>
+  </data>
+  <data name="strCreateCards" xml:space="preserve">
+    <value>카드 만들기</value>
+  </data>
+  <data name="strCreateCollection" xml:space="preserve">
+    <value>컬렉션 만들기</value>
+  </data>
+  <data name="strCreateCustom" xml:space="preserve">
+    <value>카드 만들기</value>
+  </data>
+  <data name="strCustom" xml:space="preserve">
+    <value>사용자 정의 :</value>
+  </data>
+  <data name="strDamage" xml:space="preserve">
+    <value>훼손</value>
+  </data>
+  <data name="strDemon" xml:space="preserve">
+    <value>악마</value>
+  </data>
+  <data name="strDragon" xml:space="preserve">
+    <value>용족</value>
+  </data>
+  <data name="strDruid" xml:space="preserve">
+    <value>드루이드</value>
+  </data>
+  <data name="strDurability" xml:space="preserve">
+    <value>내구</value>
+  </data>
+  <data name="strEpic" xml:space="preserve">
+    <value>영웅</value>
+  </data>
+  <data name="strFree" xml:space="preserve">
+    <value>무료</value>
+  </data>
+  <data name="strGvG" xml:space="preserve">
+    <value>고블린 대 노움</value>
+  </data>
+  <data name="strHealth" xml:space="preserve">
+    <value>생명</value>
+  </data>
+  <data name="strHunter" xml:space="preserve">
+    <value>사냥꾼</value>
+  </data>
+  <data name="strImageFolder" xml:space="preserve">
+    <value>이미지 폴더를 선택</value>
+  </data>
+  <data name="strLegendary" xml:space="preserve">
+    <value>전설</value>
+  </data>
+  <data name="strMage" xml:space="preserve">
+    <value>마법사</value>
+  </data>
+  <data name="strMech" xml:space="preserve">
+    <value>기계</value>
+  </data>
+  <data name="strMinion" xml:space="preserve">
+    <value>하수인</value>
+  </data>
+  <data name="strMurloc" xml:space="preserve">
+    <value>멀록</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>카드 검색</value>
+  </data>
+  <data name="strNax" xml:space="preserve">
+    <value>낙스라마스의 저주</value>
+  </data>
+  <data name="strNeutral" xml:space="preserve">
+    <value>중립</value>
+  </data>
+  <data name="strNone" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="strOpenJSONFile" xml:space="preserve">
+    <value>열기 JSON 파일</value>
+  </data>
+  <data name="strOutputSize" xml:space="preserve">
+    <value>출력 크기 :</value>
+  </data>
+  <data name="strPaladin" xml:space="preserve">
+    <value>성기사</value>
+  </data>
+  <data name="strPirate" xml:space="preserve">
+    <value>해적</value>
+  </data>
+  <data name="strPriest" xml:space="preserve">
+    <value>사제</value>
+  </data>
+  <data name="strProcessingLocale" xml:space="preserve">
+    <value>만들기 로케일</value>
+  </data>
+  <data name="strQuality" xml:space="preserve">
+    <value>카드 등급</value>
+  </data>
+  <data name="strRace" xml:space="preserve">
+    <value>하수인 경주</value>
+  </data>
+  <data name="strRare" xml:space="preserve">
+    <value>희귀</value>
+  </data>
+  <data name="strRogue" xml:space="preserve">
+    <value>도적</value>
+  </data>
+  <data name="strSaveCard" xml:space="preserve">
+    <value>저장 카드</value>
+  </data>
+  <data name="strSelectImage" xml:space="preserve">
+    <value>선택 카드 이미지</value>
+  </data>
+  <data name="strSet" xml:space="preserve">
+    <value>카드 세트</value>
+  </data>
+  <data name="strShaman" xml:space="preserve">
+    <value>주술사</value>
+  </data>
+  <data name="strSpell" xml:space="preserve">
+    <value>주문</value>
+  </data>
+  <data name="strText" xml:space="preserve">
+    <value>카드 텍스트 (HTML 태그를 사용할 수 있습니다)</value>
+  </data>
+  <data name="strTGT" xml:space="preserve">
+    <value>대 마상시합</value>
+  </data>
+  <data name="strTotem" xml:space="preserve">
+    <value>토템</value>
+  </data>
+  <data name="strType" xml:space="preserve">
+    <value>카드 종류</value>
+  </data>
+  <data name="strUnknownError" xml:space="preserve">
+    <value>오류가 발생했습니다있다</value>
+  </data>
+  <data name="strUpdateCard" xml:space="preserve">
+    <value>업데이트 카드</value>
+  </data>
+  <data name="strUserCancel" xml:space="preserve">
+    <value>사용자 취소 과정</value>
+  </data>
+  <data name="strWarlock" xml:space="preserve">
+    <value>흑 마법사</value>
+  </data>
+  <data name="strWarrior" xml:space="preserve">
+    <value>전사</value>
+  </data>
+  <data name="strWeapon" xml:space="preserve">
+    <value>무기</value>
+  </data>
+  <data name="strTranslation" xml:space="preserve">
+    <value>Hugo Castro / Google</value>
+  </data>
+  <data name="strJSONParseSuccess" xml:space="preserve">
+    <value>를 성공적으로 구문 분석 JSON 파일</value>
+  </data>
+  <data name="strJSONProcess" xml:space="preserve">
+    <value>가공 파일. 잠시 기다려주십시오 ...</value>
+  </data>
+  <data name="strDefaultPicture" xml:space="preserve">
+    <value>기본 사진을 사용?</value>
+  </data>
+  <data name="strNoImage" xml:space="preserve">
+    <value>카드 초상화가 발견되지 않는 경우 :</value>
+  </data>
+  <data name="strNoImageOptions" xml:space="preserve">
+    <value>카드 생성하지 않습니다-디폴트 이미지를 사용하여-빈 장소를 남겨</value>
+  </data>
+  <data name="strStatus" xml:space="preserve">
+    <value>{1} 언어로 {0} 장의 카드를 읽고</value>
+  </data>
+</root>
