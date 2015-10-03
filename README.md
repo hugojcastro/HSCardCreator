@@ -8,7 +8,7 @@
 
 > ¿Qué es este programa?
 
-Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. ![más info sobre licencia](LICENSE.md)
+Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. ![más info sobre licencia](LICENSE)
 
 > Pero si hay un montón... ¿Para qué uno más?
 
