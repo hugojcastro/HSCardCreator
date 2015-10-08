@@ -8,7 +8,7 @@
 
 > ¿Qué es este programa?
 
-Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. [más info sobre licencia](LICENSE)
+Básicamente te permite hacer dos cosas: crear cartas personalizadas de HearthStone y crear colecciones de cartas del juego, en los idiomas que quieras. Es código libre distribuído bajo licencia MIT. ![más info sobre licencia](LICENSE.md)
 
 > Pero si hay un montón... ¿Para qué uno más?
 
@@ -64,9 +64,10 @@ IMPORTANTE: Sólo se generan *cartas coleccionables*. Las cartas especiales (de A
 Como dije, mi interés era hacerme con todas las cartas en todos los idiomas y, una vez hecho, no tengo problema en compartir con los demás mis herramientas y sus frutos :D Si ha sido útil para mí, espero que sea útil también para otros ^^
 
 
-Hearthstone®: Heroes of Warcraft
+Hearthstone®: Heroes of Warcraft 
 ©2014 Blizzard Entertainment, Inc. Todos los derechos reservados. Heroes of Warcraft es una marca, y Hearthstone es una marca registrada de Blizzard Entertainment, Inc. en los EE.UU. y/o en otros países.
 
+Tanto los archivos JSON como la información contenida en ellos y todo el material visual son propiedad de Blizzard Entertainment, Inc. y de sus correspondientes autores.
 
 
 ------------------------------------
@@ -75,7 +76,7 @@ Hearthstone®: Heroes of Warcraft
 
 > What is this program
 
-Basically, it allows you to do two things: create customized Hearthstone cards and create card collections from the game, in the languages you want. It is open source under MIT license [more info on license](LICENSE)
+Basically, it allows you to do two things: create customized Hearthstone cards and create card collections from the game, in the languages you want. It is open source under MIT license ![more info on license](LICENSE.md)
 
 > But there are lots of these... Why one more?
 
@@ -131,5 +132,7 @@ You have some example of source files into the "sample data" folder.
 As I said, my goal was to get all the cards in all languages and, once I did it, I have no problem with sharing my tools with others :D If it was helpful for me, I hope it is also useful for others ^^
 
 
-Hearthstone®: Heroes of Warcraft
+Hearthstone®: Heroes of Warcraft 
 ©2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of Warcraft is a trademark, and Hearthstone is a registered trademark of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
+
+Both the JSON files as the information contained in them, and all the visual material are owned by Blizzard Entertainment, Inc. and their respective authors.
