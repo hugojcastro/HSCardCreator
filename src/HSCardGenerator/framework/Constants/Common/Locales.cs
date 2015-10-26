@@ -34,6 +34,7 @@ namespace HSCardGenerator.framework.Constants.Common
         ptBR = 9, // Portuguese (Brazil)
         ruRU = 10, // Russian
         zhCN = 11, // Chinese (Simplified, China)
-        zhTW = 12  // Chinese (Traditional, Taiwan)
+        zhTW = 12, // Chinese (Traditional, Taiwan)
+        jaJP = 13  // Japanese
     }
 }

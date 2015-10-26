@@ -132,6 +132,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Resources\Texts\Strings.ja-JP.Designer.cs">
+      <DependentUpon>Strings.ja-JP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Resources\Texts\Strings.es-MX.Designer.cs">
       <DependentUpon>Strings.es-MX.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -209,6 +214,10 @@
     <EmbeddedResource Include="Resources\Texts\Strings.en-GB.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.en-GB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Texts\Strings.ja-JP.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.ja-JP.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Texts\Strings.es-MX.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -885,6 +894,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appIcon.ico" />
+    <EmbeddedResource Include="Resources\Images\Flags\jajp.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
