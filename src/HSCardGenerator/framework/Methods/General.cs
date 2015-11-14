@@ -35,7 +35,7 @@ namespace HSCardGenerator.framework.Methods
         private static string[] cardQualities   = { "Free", "Common", "Rare", "Epic", "Legendary" };
         private static string[] cardClasses     = { "Neutral", "Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid" };
         public static string[] cardRaces        = { "None", "Totem", "Demon", "Mech", "Dragon", "Beast", "Murloc", "Pirate" };
-        private static string[] cardSets        = { "Basic", "Classic", "Curse of Naxxramas", "Goblins vs Gnomes", "Blackrock Mountain", "The Grand Tournament",
+        private static string[] cardSets        = { "Basic", "Classic", "Curse of Naxxramas", "Goblins vs Gnomes", "Blackrock Mountain", "The Grand Tournament", "League of Explorers",
                                                     "Promotion", "Reward", "Credits", "Debug", "Hero Skins", "Missions", "System", "Tavern Brawl"
         };
         #endregion
@@ -61,7 +61,7 @@ namespace HSCardGenerator.framework.Methods
                 return CardError.BadClass;
             }
             // Wrong card set?
-            if ((_set < CardSet.Basic) || (_set > CardSet.TheGrandTournament))
+            if ((_set < CardSet.Basic) || (_set > CardSet.LeagueofExplorers))
             {
                 return CardError.BadSet;
             }

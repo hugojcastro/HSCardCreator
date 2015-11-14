@@ -339,4 +339,7 @@
   <data name="strStatus" xml:space="preserve">
     <value>Chargées {0} cartes avec {1} langues</value>
   </data>
+  <data name="strLOE" xml:space="preserve">
+    <value>Ligue des explorateurs</value>
+  </data>
 </root>

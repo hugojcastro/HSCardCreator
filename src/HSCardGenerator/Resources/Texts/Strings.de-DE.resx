@@ -339,4 +339,7 @@
   <data name="strStatus" xml:space="preserve">
     <value>Lesen {0} Karten mit {1} Sprache</value>
   </data>
+  <data name="strLOE" xml:space="preserve">
+    <value>Die Forscherliga</value>
+  </data>
 </root>

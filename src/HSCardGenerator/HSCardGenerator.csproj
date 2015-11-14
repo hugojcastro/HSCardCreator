@@ -894,6 +894,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appIcon.ico" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_weapon_loe.png" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_spell_loe.png" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_minion_loe.png" />
     <EmbeddedResource Include="Resources\Images\Flags\jajp.png" />
   </ItemGroup>
   <ItemGroup>

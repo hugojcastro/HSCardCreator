@@ -339,4 +339,7 @@
   <data name="strStatus" xml:space="preserve">
     <value>阅读{0}卡，{1}种语言</value>
   </data>
+  <data name="strLOE" xml:space="preserve">
+    <value>探险者协会</value>
+  </data>
 </root>

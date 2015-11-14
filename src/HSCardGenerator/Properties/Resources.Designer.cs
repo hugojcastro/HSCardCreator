@@ -1473,6 +1473,16 @@ namespace HSCardGenerator.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap watermark_minion_loe {
+            get {
+                object obj = ResourceManager.GetObject("watermark_minion_loe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap watermark_minion_nax {
             get {
                 object obj = ResourceManager.GetObject("watermark_minion_nax", resourceCulture);
@@ -1523,6 +1533,16 @@ namespace HSCardGenerator.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap watermark_spell_loe {
+            get {
+                object obj = ResourceManager.GetObject("watermark_spell_loe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap watermark_spell_nax {
             get {
                 object obj = ResourceManager.GetObject("watermark_spell_nax", resourceCulture);
@@ -1566,6 +1586,16 @@ namespace HSCardGenerator.Properties {
         internal static System.Drawing.Bitmap watermark_weapon_gvg {
             get {
                 object obj = ResourceManager.GetObject("watermark_weapon_gvg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap watermark_weapon_loe {
+            get {
+                object obj = ResourceManager.GetObject("watermark_weapon_loe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
