@@ -396,7 +396,7 @@ namespace HSCardGenerator.framework.Types.Graphics
             {
                 var border = (Config.debug) ? "1px solid red" : "0px";
                 var html = string.Format(
-                    "<table style=\"border:{0}; padding:0px; margin:0px;\"><tr><td style=\"width:{1}px; height:{2}px; vertical-align:middle; text-align:center; font-family:'{3}', FranklinGothicFamily; font-size:{4}px; color:#{5}; line-height:25px; }}\">{6}</td></tr></table>",
+                    "<table style=\"border:{0}; padding:0px; margin:0px;\"><tr><td style=\"width:{1}px; height:{2}px; vertical-align:middle; text-align:center; font-family:'Franklin Gothic', '{3}'; font-size:{4}px; color:#{5}; line-height:25px; }}\">{6}</td></tr></table>",
                     border,
                     Canvas.Description.Width - 4,
                     Canvas.Description.Height - 4,

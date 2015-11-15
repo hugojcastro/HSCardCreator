@@ -93,6 +93,7 @@ namespace HSCardGenerator
             Button[] btn = new[] { btExit, btCreateCustom, btCreateCollection };
             foreach (var button in btn)
             {
+                button.UseCompatibleTextRendering = true;
                 button.Font   = font;
                 button.Cursor = cursorPointer;
 

@@ -292,6 +292,7 @@ namespace HSCardGenerator
             Button[] btn = new[] { btOpenJSON, btImageFolder, btDestinationFolder, btBatchProcess, btBatchCancel, btBackCollection };
             foreach (var button in btn)
             {
+                button.UseCompatibleTextRendering = true;
                 button.Font   = font;
                 button.Cursor = cursorPointer;
 
@@ -321,6 +322,7 @@ namespace HSCardGenerator
             Label[] lbl = new[] { lblOutputSize, lblX, lblImageFolder, lblJSONFile, lblDestinationFolder, lblNoImage };
             foreach (var label in lbl)
             {
+                label.UseCompatibleTextRendering = true;
                 label.Font       = font;
                 label.TextAlign  = ContentAlignment.MiddleLeft;
                 label.MouseDown += moveFormOnMouseDown;
@@ -339,6 +341,7 @@ namespace HSCardGenerator
             foreach (var radiobutton in rbt)
             {
                 // Set cursor and fonts
+                radiobutton.UseCompatibleTextRendering = true;
                 radiobutton.Cursor = cursorPointer;
                 radiobutton.Font   = font;
                 // Set events to animate button on click

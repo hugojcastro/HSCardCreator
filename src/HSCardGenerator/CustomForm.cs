@@ -158,6 +158,7 @@ namespace HSCardGenerator
             Label[] lbl = new[] { lblCost, lblAttack, lblHealth, lblClass, lblType, lblQuality, lblRace, lblName, lblSet, lblDescription, lblFilename, lblDefaultPicture };
             foreach (var label in lbl)
             {
+                label.UseCompatibleTextRendering = true;
                 label.Font = font;
                 label.MouseDown += moveFormOnMouseDown;
             }
@@ -165,6 +166,7 @@ namespace HSCardGenerator
             Button[] btn = new[] { btUpdate, btSave, btImage, btBackCustom, btClearFilename };
             foreach (var button in btn)
             {
+                button.UseCompatibleTextRendering = true;
                 button.Font   = font;
                 button.Cursor = cursorPointer;
 
