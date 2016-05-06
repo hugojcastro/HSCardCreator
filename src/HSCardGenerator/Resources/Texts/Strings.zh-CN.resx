@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>探险者协会</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>上古之神的低语</value>
+  </data>
 </root>

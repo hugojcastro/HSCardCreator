@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>Ligue des explorateurs</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>Les murmures des Dieux très anciens</value>
+  </data>
 </root>

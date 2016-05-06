@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>Die Forscherliga</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>Das Flüstern der Alten Götter</value>
+  </data>
 </root>

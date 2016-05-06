@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>Liga Odkrywców</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>Przedwieczni Bogowie</value>
+  </data>
 </root>

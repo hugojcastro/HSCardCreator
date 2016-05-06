@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>Лига исследователей</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>Пробуждение древних богов</value>
+  </data>
 </root>

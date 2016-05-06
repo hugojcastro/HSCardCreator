@@ -38,6 +38,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,6 +54,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HSCardGenerator.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlRenderer">
@@ -129,6 +133,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Texts\Strings.en-GB.Designer.cs">
       <DependentUpon>Strings.en-GB.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Texts\Strings.th-TH.Designer.cs">
+      <DependentUpon>Strings.th-TH.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -214,6 +223,10 @@
     <EmbeddedResource Include="Resources\Texts\Strings.en-GB.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.en-GB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Texts\Strings.th-TH.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.th-TH.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Texts\Strings.ja-JP.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -894,6 +907,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appIcon.ico" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_minion_wog.png" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_spell_wog.png" />
+    <EmbeddedResource Include="Resources\Images\Watermark\watermark_weapon_wog.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\thth.png" />
     <EmbeddedResource Include="Resources\Images\Watermark\watermark_weapon_loe.png" />
     <EmbeddedResource Include="Resources\Images\Watermark\watermark_spell_loe.png" />
     <EmbeddedResource Include="Resources\Images\Watermark\watermark_minion_loe.png" />

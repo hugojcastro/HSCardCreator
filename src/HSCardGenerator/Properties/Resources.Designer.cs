@@ -1433,6 +1433,16 @@ namespace HSCardGenerator.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thth {
+            get {
+                object obj = ResourceManager.GetObject("thth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap waitinganimation {
             get {
                 object obj = ResourceManager.GetObject("waitinganimation", resourceCulture);
@@ -1503,6 +1513,16 @@ namespace HSCardGenerator.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap watermark_minion_wog {
+            get {
+                object obj = ResourceManager.GetObject("watermark_minion_wog", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap watermark_spell_brm {
             get {
                 object obj = ResourceManager.GetObject("watermark_spell_brm", resourceCulture);
@@ -1563,6 +1583,16 @@ namespace HSCardGenerator.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap watermark_spell_wog {
+            get {
+                object obj = ResourceManager.GetObject("watermark_spell_wog", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap watermark_weapon_brm {
             get {
                 object obj = ResourceManager.GetObject("watermark_weapon_brm", resourceCulture);
@@ -1616,6 +1646,16 @@ namespace HSCardGenerator.Properties {
         internal static System.Drawing.Bitmap watermark_weapon_tgt {
             get {
                 object obj = ResourceManager.GetObject("watermark_weapon_tgt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap watermark_weapon_wog {
+            get {
+                object obj = ResourceManager.GetObject("watermark_weapon_wog", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

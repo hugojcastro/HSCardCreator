@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>탐험가 연맹</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>고대 신의 속삭임</value>
+  </data>
 </root>

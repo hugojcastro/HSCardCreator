@@ -36,13 +36,13 @@ namespace HSCardGenerator.framework.Constants.Common
         public static string[] cardRaces     = { "strNone", "strTotem", "strDemon", "strMech", "strDragon", "strBeast", "strMurloc", "strPirate" };
         public static string[] cardTypes     = { "strMinion", "strSpell", "strWeapon" };
         public static string[] cardQualities = { "strFree", "strCommon", "strRare", "strEpic", "strLegendary" };
-        public static string[] cardSets      = { "strBasic", "strClassic", "strNax", "strGvG", "strBRM", "strTGT", "strLOE" };
+        public static string[] cardSets      = { "strBasic", "strClassic", "strNax", "strGvG", "strBRM", "strTGT", "strLOE", "strWOG" };
         // Language strings (short and long form, and cultureinfo format)
-        public static string[] locales        = { "enUS", "enGB", "esES", "esMX", "deDE", "frFR", "itIT", "koKR", "plPL", "ptBR", "ruRU", "zhCN", "zhTW", "jaJP" };
-        public static string[] localesFull    = { "English (US)", "English (GB)", "Español (ES)", "Español (LA)", "Deutsch", "Français", "Italiano", "한국의", "Polski", "Português", "русский", "普通話", "国语", "日本語" };
-        public static string[] cultureLocales = { "en-US", "en-GB", "es-ES", "es-MX", "de-DE", "fr-FR", "it-IT", "ko-KR", "pl-PL", "pt-BR", "ru-RU", "zh-CN", "zh-TW", "ja-JP" };
+        public static string[] locales        = { "enUS", "enGB", "esES", "esMX", "deDE", "frFR", "itIT", "koKR", "plPL", "ptBR", "ruRU", "zhCN", "zhTW", "jaJP", "thTH" };
+        public static string[] localesFull    = { "English (US)", "English (GB)", "Español (ES)", "Español (LA)", "Deutsch", "Français", "Italiano", "한국의", "Polski", "Português", "русский", "普通話", "国语", "日本語", "ภาษาไทย" };
+        public static string[] cultureLocales = { "en-US", "en-GB", "es-ES", "es-MX", "de-DE", "fr-FR", "it-IT", "ko-KR", "pl-PL", "pt-BR", "ru-RU", "zh-CN", "zh-TW", "ja-JP", "th-TH" };
         // String used to access resource data
-        public static string[] watermarkPath  = { "", "cla", "nax", "gvg", "brm", "tgt", "loe" };
+        public static string[] watermarkPath  = { "", "cla", "nax", "gvg", "brm", "tgt", "loe", "wog" };
         public static string[] qualityPath    = { "free", "common", "rare", "epic", "legendary" };
         public static string[] cardDescColors = { "000000", "000000", "ffffff" };
         public static string[] cardClass      = { "neutral", "warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid" };

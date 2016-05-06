@@ -129,7 +129,7 @@ namespace HSCardGenerator
             {
                 cbQuality.Items.Add(res.GetString(item, ci));
             }
-            // Populate card set combobox with localized values  d
+            // Populate card set combobox with localized values
             foreach (var item in Config.cardSets)
             {
                 cbSet.Items.Add(res.GetString(item, ci));

@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>Lega degli Esploratori</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>Sussurri degli Dei Antichi</value>
+  </data>
 </root>

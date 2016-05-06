@@ -22,21 +22,22 @@ namespace HSCardGenerator.framework.Constants
     /// </summary>
     public enum CardSet : int
     {
-        Unknown            = -1, // wrong set?
-        Basic              = 0,  // "Basic"
-        Classic            = 1,  // "Classic"
-        Naxxramas          = 2,  // "Curse of Naxxramas"
-        GoblinsVsGnomes    = 3,  // "Goblins vs Gnomes"
-        BlackRockMountain  = 4,  // "Blackrock Mountain"
-        TheGrandTournament = 5,  // "The Grand Tournament"
-        LeagueofExplorers  = 6,  // "League of Explorers"
-        Promotion          = 7,  // "Promotion"
-        Reward             = 8,  // "Reward"
-        Credits            = 9,  // "Credits"
-        Debug              = 10, // "Debug"
-        HeroSkins          = 11, // "Hero Skins"
-        Missions           = 12, // "Missions"
-        System             = 13, // "System"
-        TavernBrawl        = 14  // "Tavern Brawl"
+        Unknown              = -1, // wrong set?
+        Basic                = 0,  // "Basic"
+        Classic              = 1,  // "Classic"
+        Naxxramas            = 2,  // "Curse of Naxxramas"
+        GoblinsVsGnomes      = 3,  // "Goblins vs Gnomes"
+        BlackRockMountain    = 4,  // "Blackrock Mountain"
+        TheGrandTournament   = 5,  // "The Grand Tournament"
+        LeagueofExplorers    = 6,  // "League of Explorers"
+        WhispersOfTheOldGods = 7,  // "Whispers of the Old Gods"
+        Promotion            = 8,  // "Promotion"
+        Reward               = 9,  // "Reward"
+        Credits              = 10, // "Credits"
+        Debug                = 11, // "Debug"
+        HeroSkins            = 12, // "Hero Skins"
+        Missions             = 13, // "Missions"
+        System               = 14, // "System"
+        TavernBrawl          = 15  // "Tavern Brawl"
     }
 }

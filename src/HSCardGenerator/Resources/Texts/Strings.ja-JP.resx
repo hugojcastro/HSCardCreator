@@ -342,4 +342,7 @@
   <data name="strLOE" xml:space="preserve">
     <value>リーグ・オブ・エクスプローラー</value>
   </data>
+  <data name="strWOG" xml:space="preserve">
+    <value>旧神のささやき</value>
+  </data>
 </root>
